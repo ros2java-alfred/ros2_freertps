@@ -15,6 +15,7 @@ cd ~/ros2_embedded_ws
 touch src/ros2/rosidl_typesupport/rosidl_typesupport_c/AMENT_IGNORE
 touch src/ros2/rosidl_typesupport/rosidl_typesupport_cpp/AMENT_IGNORE
 touch src/ros2/rosidl/rosidl_generator_c/AMENT_IGNORE
+touch src/ros2/rcl_interfaces/test_msgs/AMENT_IGNORE
 
 . ~/ament_ws/install_isolated/local_setup.sh
 ament build --symlink-install --isolated --cmake-args \
